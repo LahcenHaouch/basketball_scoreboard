@@ -80,20 +80,32 @@ h6 {
 }
 
 /* Custom */
-.container {
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-}
 
 body {
+  height: 100%;
   color: white;
-  background-color: #1b244a;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 960px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #1b244a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 36px 48px;
+  border-radius: 16px;
+  box-shadow: 6px 6px 5px #f94f6d;
 }
 
 h1 {
-  padding-top: 36px;
+  color: black;
   font-size: 3rem;
   text-align: center;
   margin-bottom: 48px;
