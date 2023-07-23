@@ -82,26 +82,27 @@ h6 {
 /* Custom */
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 100px;
 }
 
 body {
   color: white;
   background-color: #1b244a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
+  padding-top: 36px;
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 48px;
 }
 
 h2 {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 16px;
-}
-
-.score-box {
 }
 
 .score {
@@ -115,6 +116,7 @@ h2 {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  font-family: "Cursed Timer ULiL", sans-serif;
 }
 
 .score-actions {
@@ -128,4 +130,5 @@ h2 {
   background-color: inherit;
   border: 2px solid currentColor;
   cursor: pointer;
+  font-family: "Cursed Timer ULil", sans-serif;
 }
