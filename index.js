@@ -12,6 +12,10 @@ document.querySelectorAll(".score-actions.home button").forEach((element) => {
 
     homeScore += num;
 
+    if (homeScore > 99) {
+      return;
+    }
+
     homeScoreElement.textContent = homeScore;
   });
 });
@@ -21,6 +25,10 @@ document.querySelectorAll(".score-actions.guest button").forEach((element) => {
     const num = Number.parseInt(event.target.textContent.split("").at(1), 10);
 
     guestScore += num;
+
+    if (guestScore > 99) {
+      return;
+    }
 
     guestScoreElement.textContent = guestScore;
   });
